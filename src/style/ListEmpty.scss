@@ -1,0 +1,17 @@
+.ListEmptyBox {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  font-weight: 400;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: rgba(4, 4, 4, 0.65);
+  white-space: break-spaces;
+  .refreshButton {
+    margin-top: 10px;
+    color: rgb(46, 97, 237);
+  }
+}

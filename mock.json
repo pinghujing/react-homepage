@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "大聪明2",
+      "author": "大聪明2作者"
+    },
+    {
+      "id": 3,
+      "title": "大聪明3",
+      "author": "大聪明3作者"
+    },
+    {
+      "id": 4,
+      "title": "大聪明4",
+      "author": "大聪明4作者"
+    }
+  ],
+  "comments": [
+    {
+      "id": 2,
+      "postId": 2,
+      "title": "大聪明2",
+      "author": "大聪明2作者"
+    },
+    {
+      "id": 3,
+      "postId": 3,
+      "title": "大聪明3",
+      "author": "大聪明3作者"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
