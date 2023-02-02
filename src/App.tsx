@@ -1,16 +1,13 @@
 import './App.css';
 import Router from "./router"
 import axios from "axios"
-console.log(2222);
-
-axios.get('http://localhost:9000/rights?_embed=children').then(res=>{
-      console.log(33333,res.data);
-    })
+import MainBox from "./view/MainBox/MainBox";
+import Login from "./view/Login/Login";
 function App() {
   return (
     <div className="App">
-      888888
       <Router></Router>
+      <Login></Login>
     </div>
   );
 }

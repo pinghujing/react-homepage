@@ -10,10 +10,11 @@ import Login from "../view/Login/Login";
 import Home from "../view/Home/Home";
 import MainBox from "../view/MainBox/MainBox";
 import UserList from "../view/UserManage/UserList";
-
+console.log(11111);
+console.log(9999, process.env.PUBLIC_URL);
 export default function index() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/" element={<MainBox></MainBox>}>
@@ -24,6 +25,6 @@ export default function index() {
           ></Route>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
